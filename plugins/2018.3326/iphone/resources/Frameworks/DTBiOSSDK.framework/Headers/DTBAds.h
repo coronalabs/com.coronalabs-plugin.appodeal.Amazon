@@ -114,4 +114,7 @@ typedef enum {
 + (void)setLocalExtras:(NSString * _Nonnull)adUnitId localExtras:(NSDictionary *_Nonnull) localExtras APS_DEPRECATED_MESSAGE();
 + (void)removeLocalExtras:(NSString *_Nonnull) key APS_DEPRECATED_MESSAGE();
 
+- (void)setDsaTransparency:(NSDictionary* _Nullable)dict;
+
+- (NSDictionary* _Nullable)getDsaTransparancyDict;
 @end

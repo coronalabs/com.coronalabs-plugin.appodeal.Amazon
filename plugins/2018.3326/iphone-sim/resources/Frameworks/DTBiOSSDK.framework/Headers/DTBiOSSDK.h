@@ -26,6 +26,7 @@ FOUNDATION_EXPORT const unsigned char DTBiOSSDKVersionString[];
 #import <DTBiOSSDK/APSError.h>
 #import <DTBiOSSDK/APSInitConfig.h>
 #import <DTBiOSSDK/APSLogger.h>
+#import <DTBiOSSDK/SKAdNetworkInfo.h>
 #import <DTBiOSSDK/APSStoreKit.h>
 #import <DTBiOSSDK/DTBAds.h>
 #import <DTBiOSSDK/DTBAdLoader.h>

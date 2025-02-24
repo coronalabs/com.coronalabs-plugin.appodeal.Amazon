@@ -43,7 +43,8 @@ typedef NS_ENUM(NSInteger, APSMraidPolicy) {
  */
 typedef NS_ENUM(NSInteger, APSPrivacyType) {
     APSPrivacyTypeIABCCPAUSPrivacy,
-    APSPrivacyTypeIABCCPAAPSPrivacy
+    APSPrivacyTypeIABCCPAAPSPrivacy,
+    APSPrivacyTypeDSAPrivacy
 };
 
 /**
@@ -132,6 +133,8 @@ FOUNDATION_EXPORT APSMraidVersion * const APSMraidVersion3_0;
  * @param privacyType A @{ref APSPrivacyType} of the privacy string.
  */
 + (void)setPrivacyString:(NSString *)string type:(APSPrivacyType)privacyType;
+
++ (void)setPrivacyValue:(NSDictionary * _Nullable)dict type:(APSPrivacyType)privacyType;
 
 /**
  * @abstract Set the content URL.

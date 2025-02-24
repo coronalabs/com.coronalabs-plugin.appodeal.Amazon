@@ -7,6 +7,7 @@
 #import <Foundation/Foundation.h>
 #import "APSDeprecatedMessage.h"
 #import "DTBAdSize.h"
+#import "SKAdNetworkInfo.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -41,6 +42,8 @@ typedef enum {
 /** This represents the video inventory type from AAX if video flag is set to true
  */
 @property (nonatomic, copy, readonly) NSString *videoInventoryType APS_DEPRECATED_MESSAGE("Use -[APSAd adFormat] instead.");
+
+@property (nonatomic, strong, nullable) SKAdNetworkInfo *skanInfo;
 
 /**
  * Add a non-null price point into an internal array.

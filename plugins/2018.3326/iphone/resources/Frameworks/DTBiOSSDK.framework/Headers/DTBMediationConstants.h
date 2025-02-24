@@ -17,6 +17,7 @@
 #define EXPECTED_HEIGHT        @"expected_height"
 #define SKADNETWORK_PARAMS     @"skadn_params"
 #define CLICKTRACKERS_ARRAY    @"clicktrackers"
+#define SKADNETWORK_INFO       @"skadn_info"
 #define IS_VIDEO               @"isVideo"
 
 /// Sample error codes.

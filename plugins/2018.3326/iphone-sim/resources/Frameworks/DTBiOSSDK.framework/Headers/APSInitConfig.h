@@ -41,6 +41,7 @@ NS_ASSUME_NONNULL_BEGIN
  * Default is NO.
  */
 @property (nonatomic, assign) BOOL skAdNetworkTestMode;
+@property (nonatomic, assign, nullable) NSString *skAdNetworkTestModeVersion;
 
 @property (nonatomic, assign) BOOL gdprRegionTestMode;
 

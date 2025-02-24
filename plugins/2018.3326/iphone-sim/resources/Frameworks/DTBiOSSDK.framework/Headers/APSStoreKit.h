@@ -5,7 +5,7 @@
 //  Copyright © 2022 amazon.com. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "SKAdNetworkInfo.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -26,10 +26,12 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (BOOL)shouldUseMockResponse;
 
++ (NSString * _Nullable )mockResponseVersion;
+
 /**
  * @return The mocked SKAdNetwork payload used for StoreKit creative testing.
  */
-+ (NSDictionary<NSString *, NSObject *> *)mockResponseDictionary;
++ (NSDictionary<NSString *, NSObject *> *)mockResponseDictionary:(NSString *)version;
 
 /**
  * Add SKAdNetwork network id array from the Info.plist with the "skadn" key.
@@ -37,9 +39,14 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)addSkadnParamsIfExists:(NSMutableDictionary *)params;
 
 /**
- * Parse the SKAdNetwork key/values from the AAX bid response into a dictionary.
+ * Parse the SKAdNetwork key/values from the AAX bid response into a dictionary for SKAN legacy 2.0 response format.
  */
-+ (NSDictionary * _Nullable)parseSKAdNetworkParamsFromAAXResponse:(NSDictionary *)rawResponseSKAdnDictionary;
++ (NSDictionary * _Nullable)parseLegacySKAdNetworkParamsFromAAXResponse:(NSDictionary *)rawResponseSKAdnDictionary;
+
+/**
+ * Parse the SKAdNetwork key/values from the AAX bid response into a SKAdNetworkInfo object for SKAN oRTB response format.
+ */
++ (SKAdNetworkInfo * _Nullable)parseSKAdNetworkInfoFromAAXResponse:(NSDictionary *)rawResponseSKAdnDictionary;
 
 /**
  * For SKAdnewtork phase 2, send the SKAdNetwork entries every 24 hours under a sampling rate.

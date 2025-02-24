@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/APS.h</key>
 		<data>
-		YlCxHzhJcDIBNtRl8F3RZs+yZEY=
+		h7pPy1b7CnIUiXMHdNMK+McYVKI=
 		</data>
 		<key>Headers/APSAd+AdMobAdditions.h</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Headers/APSInitConfig.h</key>
 		<data>
-		/6+DZUMXtgbLTJ4LT4U/EWh0gb8=
+		QBcx+12AIH1WhopfSQ1KWO1IkBY=
 		</data>
 		<key>Headers/APSLogger.h</key>
 		<data>
@@ -186,7 +186,7 @@
 		</data>
 		<key>Headers/APSStoreKit.h</key>
 		<data>
-		N3vzUocxu/NR2/taSyQVL0qB74o=
+		k3CnaM0yjsnjgl+XPiaeDh+z3VE=
 		</data>
 		<key>Headers/APSURLSessionTask.h</key>
 		<data>
@@ -234,7 +234,7 @@
 		</data>
 		<key>Headers/DTBAdResponse.h</key>
 		<data>
-		dXYF7TDwQV/fenPt1XtZrhZ63Go=
+		FLaC+Ja8IJFg+G7kYY3e38aRsOA=
 		</data>
 		<key>Headers/DTBAdSize.h</key>
 		<data>
@@ -246,11 +246,11 @@
 		</data>
 		<key>Headers/DTBAds.h</key>
 		<data>
-		pZ/whHOSa8Bb/tWKZ/b0NMb51Mo=
+		wNu75GiICXS3mlDS87bAZsthAAM=
 		</data>
 		<key>Headers/DTBDebugProperties.h</key>
 		<data>
-		AoF/KMin5Moozuy3yGlAPMvQmbU=
+		AVqAfVjhweXCqb18s+FN5eGDXjw=
 		</data>
 		<key>Headers/DTBErrorCodes.h</key>
 		<data>
@@ -274,7 +274,7 @@
 		</data>
 		<key>Headers/DTBMediationConstants.h</key>
 		<data>
-		mOGykirgrnKEoWxUNgYhHYMwKhM=
+		pFbjba8QujTo74zvTrp3qSRyTzs=
 		</data>
 		<key>Headers/DTBMraidConstants.h</key>
 		<data>
@@ -290,7 +290,7 @@
 		</data>
 		<key>Headers/DTBiOSSDK.h</key>
 		<data>
-		ncN6RTDY3FbvW54TA7OLk4t1HGI=
+		+ARv8b83aDX0QZhIa9gGaiMko+o=
 		</data>
 		<key>Headers/NSJSONSerialization+Helpers.h</key>
 		<data>
@@ -352,13 +352,17 @@
 		<data>
 		VgXGV5IDWpWl0D1j4HSNKhQ4ERw=
 		</data>
+		<key>Headers/SKAdNetworkInfo.h</key>
+		<data>
+		S2syG3/+kRE2VyEHa7CbHPurLJM=
+		</data>
 		<key>Headers/UIView+DTB.h</key>
 		<data>
 		HS39dqGSYd8uSd1bOKzfC+vvdcQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		K1L7uXYCbEBM0id4GAj+sQ2uq1g=
+		DD6t8Ux5hr/W4/sexInZW33lZHI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -378,7 +382,7 @@
 		</data>
 		<key>dtb-m.js</key>
 		<data>
-		BFA3I0SCb2qUyN7jJXodvX14uBU=
+		YTw8APlJdL5mzr80zpeDEdzEiYM=
 		</data>
 		<key>mraid_close.png</key>
 		<data>
@@ -421,7 +425,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dysY5ueodIhy4+oXBUglsLStVFq6fySnLnYKAW717Vo=
+			MPFi/C6n3XhXj7p9m1+zdldluMWRFK+WZaooTLaXTj8=
 			</data>
 		</dict>
 		<key>Headers/APSAd+AdMobAdditions.h</key>
@@ -554,7 +558,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JIK82zTZC3TPkO14n5uMeBnH8J+8Fj3cuFJeiUkduKc=
+			/KMXzeQu+mN409GIYtt5Fsb9+tD1xWskro5fgIyLVv4=
 			</data>
 		</dict>
 		<key>Headers/APSLogger.h</key>
@@ -722,7 +726,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+4dTH6iEb4MWEYBUZ/y+svXf6i1EWX8aLg389Ay3q18=
+			XVDHL3biiQytRtBbnN6TdzRahjiNOSaJ59YmkuQO95o=
 			</data>
 		</dict>
 		<key>Headers/APSURLSessionTask.h</key>
@@ -806,7 +810,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3MYcEaFhlnKujgNCo89bkd+Inrd2IAM6jSCIGrj9eZo=
+			8PAT+tcfybYe7qjOdKbVGiGujFBW5ArKDDYLSWwGQ0M=
 			</data>
 		</dict>
 		<key>Headers/DTBAdSize.h</key>
@@ -827,14 +831,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o912hFmyILvcbJpeVafE/zyYwYEtzuJCIT0RgQ5Fm2U=
+			MiCanyyXC1DEdYdsV/OGcfm3qHafT37wcc4qjFfynKI=
 			</data>
 		</dict>
 		<key>Headers/DTBDebugProperties.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RoKxAlZCOvqhMVY81AZw2NWnEYK2mBC2dzCvTRupJKM=
+			47GP8CWv0foZy5Qz16/dmdDEX6lhz6W54DJI9q+yq1I=
 			</data>
 		</dict>
 		<key>Headers/DTBErrorCodes.h</key>
@@ -876,7 +880,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a3uK64BCu6MFiVpHeeIe1ZrF4UQITvJKeyzxiEvWqLI=
+			XD5bC2Vw/68EiTxYBJegZEBLKRA8IhR0/sEr8VZHirU=
 			</data>
 		</dict>
 		<key>Headers/DTBMraidConstants.h</key>
@@ -904,7 +908,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2wpTo+/kbrn9jnOap90IV7TnTb+BPokF+cleDl4c8iU=
+			eAnFL702JhjFTSYjqGfnbnWI1Zioax+vv8K06R3VWOY=
 			</data>
 		</dict>
 		<key>Headers/NSJSONSerialization+Helpers.h</key>
@@ -1012,6 +1016,13 @@
 			q5pRAgw8mKal310HEkVvt7oAxGxrgj2HZi7KB+HiRBs=
 			</data>
 		</dict>
+		<key>Headers/SKAdNetworkInfo.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5N9AtXy56qK7eFJuj1ecTnn4l/EBvBrtTHLNbRcl5FY=
+			</data>
+		</dict>
 		<key>Headers/UIView+DTB.h</key>
 		<dict>
 			<key>hash2</key>
@@ -1051,7 +1062,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gOH/SAD9xQKLFJs3HHeazSZ5UqyhcdE4/nmiw1TLhFo=
+			tnkL6ixiYF7pFKumED2xVCaG9KC4bFtjSo4pULs+IAg=
 			</data>
 		</dict>
 		<key>mraid_close.png</key>
