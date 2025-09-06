@@ -98,7 +98,7 @@ typedef NS_ENUM(NSUInteger, OMIDImpressionType) {
  * The OM SDK JS service will use this information to help identify where the source of these
  * events is expected to be received.
  */
-@interface OMIDAmazonAdSessionConfiguration : NSObject
+@interface OMIDAmazon1AdSessionConfiguration : NSObject
 
 @property OMIDCreativeType creativeType;
 @property OMIDImpressionType impressionType;

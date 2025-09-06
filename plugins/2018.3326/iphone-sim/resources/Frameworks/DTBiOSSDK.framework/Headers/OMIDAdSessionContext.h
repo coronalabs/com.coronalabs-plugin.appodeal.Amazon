@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
  *  Provides the ad session with details of the partner and whether to an HTML,
  *  JavaScript, or native session.
  */
-@interface OMIDAmazonAdSessionContext : NSObject
+@interface OMIDAmazon1AdSessionContext : NSObject
 
 - (null_unspecified instancetype)init NS_UNAVAILABLE;
 
@@ -39,7 +39,7 @@ NS_ASSUME_NONNULL_BEGIN
  *   any of the parameters are nil.
  * @see OMIDSDK
  */
-- (nullable instancetype)initWithPartner:(OMIDAmazonPartner *)partner
+- (nullable instancetype)initWithPartner:(OMIDAmazon1Partner *)partner
                                  webView:(WKWebView *)webView
                               contentUrl:(nullable NSString *)contentUrl
                customReferenceIdentifier:(nullable NSString *)customReferenceIdentifier
@@ -63,9 +63,9 @@ NS_ASSUME_NONNULL_BEGIN
  * @return A new native context instance. Returns nil if OMID has not been activated or if any of the parameters are invalid.
  * @see OMIDSDK
  */
-- (nullable instancetype)initWithPartner:(OMIDAmazonPartner *)partner
+- (nullable instancetype)initWithPartner:(OMIDAmazon1Partner *)partner
                                   script:(NSString *)script
-                               resources:(NSArray<OMIDAmazonVerificationScriptResource *> *)resources
+                               resources:(NSArray<OMIDAmazon1VerificationScriptResource *> *)resources
                               contentUrl:(nullable NSString *)contentUrl
                customReferenceIdentifier:(nullable NSString *)customReferenceIdentifier
                                    error:(NSError *_Nullable *_Nullable)error;
@@ -87,7 +87,7 @@ NS_ASSUME_NONNULL_BEGIN
  *   activated or if any of the parameters are invalid.
  * @see OMIDSDK
  */
-- (nullable instancetype)initWithPartner:(OMIDAmazonPartner *)partner
+- (nullable instancetype)initWithPartner:(OMIDAmazon1Partner *)partner
                        javaScriptWebView:(WKWebView *)webView
                               contentUrl:(nullable NSString *)contentUrl
                customReferenceIdentifier:(nullable NSString *)customReferenceIdentifier

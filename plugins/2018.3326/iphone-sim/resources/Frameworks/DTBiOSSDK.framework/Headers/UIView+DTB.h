@@ -23,9 +23,11 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIInterfaceOrientation) currentOrientation APS_DEPRECATED_MESSAGE();
 - (CGSize) screenSize APS_DEPRECATED_MESSAGE();
 - (CGSize) maxSize APS_DEPRECATED_MESSAGE();
-
 + (UIViewController *) getTopViewController APS_DEPRECATED_MESSAGE();
+- (UIViewController * _Nullable) getTopViewControllerScene;
+
 + (BOOL) isStoreKitInTheForeground APS_DEPRECATED_MESSAGE();
+- (BOOL)isStoreKitInTheForegroundScene;
 
 @end
 

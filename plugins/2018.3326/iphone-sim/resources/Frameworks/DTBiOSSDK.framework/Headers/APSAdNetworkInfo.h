@@ -1,37 +1,40 @@
 //
-//  DTBAdNetworkInfo.h
+//  APSAdNetworkInfo.h
 //  DTBiOSSDK
 //
-//  Created by Jammula, Nimitha on 1/4/22.
-//  Copyright © 2022 amazon.com. All rights reserved.
+//  Copyright © 2025 amazon.com. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-typedef enum {
-    DTBADNETWORK_UNKNOWN,
-    DTBADNETWORK_GOOGLE_AD_MANAGER,
-    DTBADNETWORK_ADMOB,
-    DTBADNETWORK_AD_GENERATION,
-    DTBADNETWORK_UNITY_LEVELPLAY,
-    DTBADNETWORK_MAX,
-    DTBADNETWORK_NIMBUS,
-    DTBADNETWORK_CUSTOM_MEDIATION,
-    DTBADNETWORK_OTHER
-} DTBAdNetwork;
 
+/**
+ * Supported ad network type.
+ */
+typedef NS_ENUM(NSInteger, APSAdNetwork) {
+    APSAdNetworkUnknown,
+    APSAdNetworkGoogleAdManager,
+    APSAdNetworkAdmob,
+    APSAdNetworkAdGeneration,
+    APSAdNetworkUnityLevelPlay,
+    APSAdNetworkMax,
+    APSAdNetworkNimbus,
+    APSAdNetworkOther,
+    APSAdNetworkCustomMediation
+};
 extern NSString * _Nonnull const FormatType_toString[];
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DTBAdNetworkInfo : NSObject
+@interface APSAdNetworkInfo : NSObject
+
 
 /**
  * An ad network name string.
  */
 @property(nonatomic, copy) NSString *adNetworkName;
 
-@property(nonatomic) DTBAdNetwork adNetworkNameEnumValue;
+@property(nonatomic) APSAdNetwork adNetworkNameEnumValue;
 /**
  * An ad network property dictionary.
  */
@@ -42,20 +45,13 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * @param adNetworkName An ad network name enum.
  */
-- (instancetype)initWithNetworkName:(DTBAdNetwork)adNetworkName;
+- (instancetype)initWithNetworkName:(APSAdNetwork)adNetworkName;
 
 /**
  * @return An ad network name string.
  */
 - (NSString *)getAdNetworkName;
 
-/**
- * Set the adNetworkValue in the adNetworkProperties key.
- * @param adNetworkProperties A non-null ad network property string key.
- * @param adNetworkValue A non-null string value to be set.
- */
-- (DTBAdNetworkInfo *)setAdNetworkProperties:(NSString *)adNetworkProperties
-                              adNetworkValue:(NSString *)adNetworkValue;
 
 /**
  * @param adNetworkProperties An ad network property string key.
@@ -68,3 +64,4 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 NS_ASSUME_NONNULL_END
+

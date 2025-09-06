@@ -6,6 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "APS.h"
+#import "APSAdFormat.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -43,6 +45,10 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)fetchAd:(APSAd *)ad extras:(NSDictionary * _Nullable)extras;
 
+- (void)fetchAdWithExtras:(NSDictionary *)extras
+                 adFormat:(APSAdFormat)adFormat
+                adNetwork:(APSAdNetwork)adNetwork;
+
 /**
  * @abstract A utility method to present an interstitial ad from an input root view controller.
  * @param controller A presenting UIViewController.
@@ -50,6 +56,7 @@ NS_ASSUME_NONNULL_BEGIN
  * does not throw an exception in production.
  */
 - (void)showFromViewController:(UIViewController *)controller;
+- (BOOL)interstitialLoaded;
 
 @end
 

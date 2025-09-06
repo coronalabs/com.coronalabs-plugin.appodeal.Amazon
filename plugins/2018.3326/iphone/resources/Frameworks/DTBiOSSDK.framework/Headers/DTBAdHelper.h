@@ -7,6 +7,7 @@
 #import <Foundation/Foundation.h>
 #import "APSDeprecatedMessage.h"
 #import "DTBExpectedSize.h"
+#import "APSSlotInfoExtra.h"
 
 #define APS_ADMOB_CONST_SLOT_UUID             @"slotUUId"
 #define APS_ADMOB_CONST_REQUEST_ID            @"requestId"
@@ -60,14 +61,26 @@ NS_ASSUME_NONNULL_BEGIN
                                       extras:(NSDictionary *_Nullable) extras APS_DEPRECATED_MESSAGE("Use +[APSAd keywordsWithSlotUUID:width:height:] instead.");
 + (NSArray *)createAdMobBannerRequestKeyword:(NSString * _Nonnull)slotUUId
                                        width:(NSInteger)width
-                                      height:(NSInteger) height APS_DEPRECATED_MESSAGE("Use +[APSAd keywordsWithSlotUUID:width:height:] instead.");;
+                                      height:(NSInteger) height APS_DEPRECATED_MESSAGE("Use +[APSAd keywordsWithSlotUUID:width:height:] instead.");
+
++ (NSArray *)createAdMobBannerRequestKeyword:(NSString * _Nonnull)slotUUId
+                                       width:(NSInteger)width
+                                       height:(NSInteger)height
+                                       slotInfoExtra:(APSSlotInfoExtra * _Nullable)slotInfo
+                                      extras:(NSDictionary * _Nullable)extras;
 
 + (NSArray *)createAdMobInterstitialRequestKeyword:(NSString *_Nonnull) slotUUId APS_DEPRECATED_MESSAGE("Use +[APSAd keywordsWithSlotUUID:] instead.");
 + (NSArray *)createAdMobInterstitialRequestKeyword:(NSString * _Nonnull)slotUUId extras:(NSDictionary *_Nullable) extras APS_DEPRECATED_MESSAGE("Use +[APSAd keywordsWithSlotUUID:] instead.");
 
++ (NSArray *)createAdMobInterstitialRequestKeyword:(NSString * _Nonnull)slotUUId
+                                     slotInfoExtra:(APSSlotInfoExtra * _Nullable)slotInfo
+                                            extras:(NSDictionary * _Nullable)extras;
+
 + (NSArray *)createAdMobBannerRequestKeywordWithSlotGroup:(NSString *_Nonnull) slotGroup APS_DEPRECATED_MESSAGE();
 + (NSArray *)createAdMobBannerRequestKeywordWithSlotGroup:(NSString * _Nonnull)slotGroup
                                                    extras:(NSDictionary *_Nullable) extras APS_DEPRECATED_MESSAGE();
+
++ (APSSlotInfoExtra * _Nullable)getValueForSlotInfoExtraFromAdMobKeywords:(NSArray *)adMobKeywords;
 
 + (NSString * _Nullable)getValueForKeyFromAdMobKeywords:(NSArray *)adMobKeywords key:(NSString *) key APS_DEPRECATED_MESSAGE();
 + (BOOL)validateAdMobCustomSingleEventPricePoint:(NSString *)serverParameter parameters:(NSDictionary *_Nullable) params APS_DEPRECATED_MESSAGE("Use [APSAd isValidPricePoint:] instead.");

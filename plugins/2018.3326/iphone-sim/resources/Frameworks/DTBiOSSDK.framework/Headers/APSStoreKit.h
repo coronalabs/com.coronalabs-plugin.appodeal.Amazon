@@ -6,11 +6,12 @@
 //
 
 #import "SKAdNetworkInfo.h"
+#import "APSStoreKitOverlay.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 /**
- * APS Store Kit provides interfaces to Apple StoreKit Ad Netwrok (SKAdNetwork).
+ * APS Store Kit provides interfaces to Apple StoreKit Ad Network (SKAdNetwork).
  */
 @interface APSStoreKit : NSObject
 
@@ -54,13 +55,18 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)sendSKAdNetworkChecksumPacketIfNeededForPhase2;
 
 /**
- * Handle SK Ad Network parameters from bid queue and opens SK url if available
- */
-/**
  * Handle SK Ad Network parameters from bid queue.
  * It'll open the destination URL by either the StoreKit Product Page or a web browser.
  */
 + (void)skadnHelper:(NSString *)label withInfo:(NSString *)info;
+
+/**
+ * Creates and returns a new APSStoreKitOverlay instance for displaying App Store overlays.
+ * This method is only available on iOS 14.0 and later.
+ * @param viewController The view controller to present the overlay.
+ * @return A new APSStoreKitOverlay instance.
+ */
++ (APSStoreKitOverlay * _Nullable)createOverlayWithViewController:(UIViewController *)viewController API_AVAILABLE(ios(14.0));
 
 @end
 

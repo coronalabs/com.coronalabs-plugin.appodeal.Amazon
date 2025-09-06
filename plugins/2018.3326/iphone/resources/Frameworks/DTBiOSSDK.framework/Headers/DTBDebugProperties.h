@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 // Test flag to test out or enable SKAdnetwork response
 @property (nonatomic) BOOL skadnTestMode;
 @property (nonatomic) NSString * skadnTestModeVersion;
+@property (nonatomic) NSMutableDictionary *headers;
+@property (strong, nonatomic) NSDictionary *aaxResponseTestMode;
 
 // Test flag to test out the mocked config response for GDPR region
 @property (nonatomic) BOOL gdprRegionTestMode;

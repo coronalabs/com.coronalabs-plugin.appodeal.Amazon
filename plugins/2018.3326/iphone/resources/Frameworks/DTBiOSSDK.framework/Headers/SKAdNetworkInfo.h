@@ -43,6 +43,19 @@ extern NSString *const kSKAdNetworkVersion4_0;
 
 @end
 
+@interface APSSKOverlay : NSObject
+
+@property (nonatomic, assign) NSInteger delay;
+@property (nonatomic, assign) NSInteger endcarddelay;
+@property (nonatomic, assign) NSInteger defaultendcarddelay;
+@property (nonatomic, assign) NSInteger dismissible;
+@property (nonatomic, assign) NSInteger pos;
+
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
+- (instancetype)initWithDefaultValues;
+
+@end
+
 @interface SKAdNetworkInfo : NSObject
 
 @property (strong, nonatomic) NSString *version;
@@ -57,12 +70,14 @@ extern NSString *const kSKAdNetworkVersion4_0;
 @property (strong, nonatomic) NSString *signature;         // used for SKAN 2.0
 @property (strong, nonatomic) NSString *nonce;             // used for SKAN 2.0
 @property (strong, nonatomic) NSNumber *timestamp;         // used for SKAN 2.0
+@property (strong, nonatomic) APSSKOverlay *apsSKOverlay;
 
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 - (NSDictionary *)storeLoadProductParameters;
 - (NSArray<SKAdImpression *> * _Nullable)adImpressions API_AVAILABLE(ios(14.5));
 
 @end
+
 
 NS_ASSUME_NONNULL_END
 

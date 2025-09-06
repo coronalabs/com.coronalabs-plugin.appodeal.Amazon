@@ -9,6 +9,7 @@
 
 #import "APSAdFormat.h"
 #import "APSAdFormatProperties.h"
+#import "APSAdNetworkInfo.h"
 
 @class APSAd;
 
@@ -40,6 +41,8 @@ typedef void (^APSLoadAdCompletionHandler)(APSAd *ad, NSError * _Nullable error)
  */
 @interface APSAdRequest : NSObject
 
+- (instancetype)init NS_UNAVAILABLE;
++ (instancetype)new NS_UNAVAILABLE;
 /**
  * Set auto refresh flag.  When it is set to YES, the ad request will attempt to load a new ad every specified interval
  * (default to 60 seconds) and will call the completion handler callback.  Call @{ref stopAutoRefresh} to ensure that
@@ -66,7 +69,7 @@ typedef void (^APSLoadAdCompletionHandler)(APSAd *ad, NSError * _Nullable error)
  * @return A new @{ref APSAdRequest} instance.
  * @note Use this constructor to create a new APSAdRequest from a slot UUID.
  */
-- (instancetype)initWithSlotUUID:(NSString *)slotUUID;
+- (instancetype)initWithSlotUUID:(NSString *)slotUUID adNetworkInfo:(APSAdNetworkInfo * _Nonnull)networkInfo;
 
 /**
  * @abstract Init a new instance from an existing ad object.
@@ -77,7 +80,7 @@ typedef void (^APSLoadAdCompletionHandler)(APSAd *ad, NSError * _Nullable error)
  * @note Use this constructor to create a new APSAdRequest from the previous APSAd object returned
  * from the previous request.
  */
-- (instancetype)initWithAd:(APSAd *)ad;
+- (instancetype)initWithAd:(APSAd *)ad networkInfo:(APSAdNetworkInfo * _Nonnull)networkInfo;
 
 /**
  * @abstract Set the ad format.
@@ -111,6 +114,8 @@ typedef void (^APSLoadAdCompletionHandler)(APSAd *ad, NSError * _Nullable error)
  */
 - (void)setCustomTarget:(NSString *)value forKey:(NSString *)key;
 
+- (void)setCorrelationId:(NSString *)correlationId;
+
 /**
  * @abstract Stop autorefresh.
  * @description If the request has auto refresh set to YES, this call will stop the next auto refresh timer.  However
@@ -118,6 +123,8 @@ typedef void (^APSLoadAdCompletionHandler)(APSAd *ad, NSError * _Nullable error)
  * the request does not have the auto refresh set, the method will do nothing.
  */
 - (void)stopAutoRefresh;
+
+- (void)setRefreshFlag:(BOOL)flag;
 
 @end
 

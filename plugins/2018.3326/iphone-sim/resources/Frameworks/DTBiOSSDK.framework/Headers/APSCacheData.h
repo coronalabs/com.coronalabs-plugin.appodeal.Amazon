@@ -11,18 +11,19 @@
 #define DEFAULT_ADMOB_AUTO_REFRESH_TIME_IN_SEC 29
 
 #import "DTBAdLoader.h"
-#import "DTBAdResponse.h"
+#import "APSAdRequest.h"
+#import "APSAd.h"
 
 @interface APSCacheData : NSObject
 
-@property (nonatomic, strong) DTBAdLoader *adLoaderReq;
-@property (nonatomic, strong) DTBAdResponse *adResponse;
+@property (nonatomic, strong) APSAdRequest *adRequest;
+@property (nonatomic, strong) APSAd *apsAd;
 @property (nonatomic, copy) NSNumber *timestamp;
 @property (nonatomic, copy) NSString *requestId;
 @property (nonatomic, copy) NSString *serverParameter;
 @property (nonatomic, strong) id request;
 
-- (id)initWithRequestId:(NSString *)requestId adLoaderReq:(DTBAdLoader *)adLoaderReq;
+- (id)initWithRequestId:(NSString *)requestId adRequest:(APSAdRequest *)adRequest;
 
 @end
 

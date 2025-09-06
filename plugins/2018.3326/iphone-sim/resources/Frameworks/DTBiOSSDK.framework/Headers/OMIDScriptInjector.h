@@ -10,7 +10,7 @@
 /**
  *  Utility class which enables integration partners to use a standard approach for injecting OM SDK JS into the served tag HTML content.
  */
-@interface OMIDAmazonScriptInjector : NSObject
+@interface OMIDAmazon1ScriptInjector : NSObject
 
 /*
  Injects the downloaded OMID JS content into the served HTML.

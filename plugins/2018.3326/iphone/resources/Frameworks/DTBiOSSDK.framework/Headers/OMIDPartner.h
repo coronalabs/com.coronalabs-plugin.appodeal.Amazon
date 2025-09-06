@@ -10,7 +10,7 @@
 /**
  *  Details about the integration partner which will be supplied to the ad session.
  */
-@interface OMIDAmazonPartner : NSObject
+@interface OMIDAmazon1Partner : NSObject
 
 @property(nonatomic, readonly, nonnull) NSString *name;
 @property(nonatomic, readonly, nonnull) NSString *versionString;

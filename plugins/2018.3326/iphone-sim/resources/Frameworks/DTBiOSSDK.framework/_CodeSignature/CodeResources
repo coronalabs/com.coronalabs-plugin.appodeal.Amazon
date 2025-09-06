@@ -14,11 +14,11 @@
 		</data>
 		<key>Headers/APS.h</key>
 		<data>
-		h7pPy1b7CnIUiXMHdNMK+McYVKI=
+		lzKBZBV19mQ1k5MyjZGyPn6JN6k=
 		</data>
 		<key>Headers/APSAd+AdMobAdditions.h</key>
 		<data>
-		9wbHtMhWxlDZjwtNvJeFRFFeO5s=
+		8LU/6YGqH18VDHqucilrLSUOtB8=
 		</data>
 		<key>Headers/APSAd+MAXAdditions.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Headers/APSAdController.h</key>
 		<data>
-		OwY2MQrUBA+JuHXNgS+R7XR+wUM=
+		cqO8ndEVPWS01Zy1WZuynkLsdrg=
 		</data>
 		<key>Headers/APSAdDelegate.h</key>
 		<data>
@@ -50,15 +50,19 @@
 		</data>
 		<key>Headers/APSAdFormatPropertyBuilder.h</key>
 		<data>
-		20FydR+Kyft26ZXa9ONeLiX8CzQ=
+		z8Wlq6tNC2N5BEtemHZIBHvMZhc=
 		</data>
 		<key>Headers/APSAdMediaType.h</key>
 		<data>
 		AskDpupeTq6c5+57aS48p26DDcc=
 		</data>
+		<key>Headers/APSAdNetworkInfo.h</key>
+		<data>
+		apx9k8gcszsv4qYYG0+sFdEaHQg=
+		</data>
 		<key>Headers/APSAdRequest.h</key>
 		<data>
-		dYr5nv/3DqPvrsbRsDKOkUzqmbE=
+		VbUUC3pVoIA/lcYlYGYC3XbBC6k=
 		</data>
 		<key>Headers/APSAnalyticsLib.h</key>
 		<data>
@@ -70,7 +74,7 @@
 		</data>
 		<key>Headers/APSCacheData.h</key>
 		<data>
-		Ny9yqgJPnFOyt3mrn6Cu3/A7Ujo=
+		cjaGttHOs2pdMKRCVYD/0MMV9H8=
 		</data>
 		<key>Headers/APSCacheManager.h</key>
 		<data>
@@ -90,7 +94,7 @@
 		</data>
 		<key>Headers/APSInitConfig.h</key>
 		<data>
-		QBcx+12AIH1WhopfSQ1KWO1IkBY=
+		M28TC6DA68lVAwwyuexTX/r9gN8=
 		</data>
 		<key>Headers/APSLogger.h</key>
 		<data>
@@ -184,9 +188,17 @@
 		<data>
 		DRB7z6r7Fwome0Yg1BHbVS6qkII=
 		</data>
+		<key>Headers/APSSlotInfoExtra.h</key>
+		<data>
+		4NxaOg/FJ2eUtp9jKSLtRkoNfAk=
+		</data>
 		<key>Headers/APSStoreKit.h</key>
 		<data>
-		k3CnaM0yjsnjgl+XPiaeDh+z3VE=
+		JzRHXJfNoMxuDwdWWeP1FpqiBkY=
+		</data>
+		<key>Headers/APSStoreKitOverlay.h</key>
+		<data>
+		ZfONSJ0X4pi16ZQdWgiJ/Akh6mg=
 		</data>
 		<key>Headers/APSURLSessionTask.h</key>
 		<data>
@@ -210,7 +222,7 @@
 		</data>
 		<key>Headers/DTBAdHelper.h</key>
 		<data>
-		OrLSTFgtsj+OkGcdm5Wi8GPM4eo=
+		MdqUbh6v/3siCGzZcWvrAyaoPCo=
 		</data>
 		<key>Headers/DTBAdInterstitialDispatcher.h</key>
 		<data>
@@ -222,11 +234,11 @@
 		</data>
 		<key>Headers/DTBAdLoader.h</key>
 		<data>
-		PBtvqvzPU24ahlXb+O5BAxFw1mg=
+		nRv8/6Yj6PdJy0AUjdxyscOx+3A=
 		</data>
 		<key>Headers/DTBAdNetworkInfo.h</key>
 		<data>
-		E82rTPxotO1uLkCz7ppc3GWwVuc=
+		zeUHCMeNns0mq/KmzXbnMKgNIAs=
 		</data>
 		<key>Headers/DTBAdResponse+Mediation.h</key>
 		<data>
@@ -238,7 +250,7 @@
 		</data>
 		<key>Headers/DTBAdSize.h</key>
 		<data>
-		cm8tCbxK8dz6ZM6jRkH0WhzjaWk=
+		4Fz1WGjuFQwakcNwfMG4/UdJ84c=
 		</data>
 		<key>Headers/DTBAdView.h</key>
 		<data>
@@ -250,7 +262,7 @@
 		</data>
 		<key>Headers/DTBDebugProperties.h</key>
 		<data>
-		AVqAfVjhweXCqb18s+FN5eGDXjw=
+		+7ZewrupyD/K3/AhzvSRZFG0y1k=
 		</data>
 		<key>Headers/DTBErrorCodes.h</key>
 		<data>
@@ -274,7 +286,7 @@
 		</data>
 		<key>Headers/DTBMediationConstants.h</key>
 		<data>
-		pFbjba8QujTo74zvTrp3qSRyTzs=
+		X7/GBACNwttYTUXvoRj3eiCbWNE=
 		</data>
 		<key>Headers/DTBMraidConstants.h</key>
 		<data>
@@ -302,19 +314,19 @@
 		</data>
 		<key>Headers/OMIDAdEvents.h</key>
 		<data>
-		WRJQ7sdrd1kNFJRu7lq95VhvFwE=
+		3cwY4l0XJwQR2DOMS/RiH9bo+rs=
 		</data>
 		<key>Headers/OMIDAdSession.h</key>
 		<data>
-		sZrVQnbgzv8mEW7Z2d4OkwuCSNw=
+		Smnx+AeMnFzJ2RfFjORiAmUfcdo=
 		</data>
 		<key>Headers/OMIDAdSessionConfiguration.h</key>
 		<data>
-		43D0n4ncjS9w+LuG2EZezCukeD4=
+		Us8ttdbuDhfZvi12fV/YzRJ5Y0c=
 		</data>
 		<key>Headers/OMIDAdSessionContext.h</key>
 		<data>
-		hZWTA+t1Z17vDdqf1b+Nm3qnhhQ=
+		IlrlqadQ02kKvBDP4Mxatx2NesA=
 		</data>
 		<key>Headers/OMIDFriendlyObstructionType.h</key>
 		<data>
@@ -326,43 +338,43 @@
 		</data>
 		<key>Headers/OMIDJavaScriptSessionService.h</key>
 		<data>
-		2cSypl8xLPnM+2eAKTsYo/wyHFs=
+		8HM3HzWwENFy6LEeVgoZT7Z9xf0=
 		</data>
 		<key>Headers/OMIDMediaEvents.h</key>
 		<data>
-		ykRF2BJ7LDeZRf2g0ZWr9B5Qq7A=
+		LJPft0JzIxycDdNABM1Zl4ABP0A=
 		</data>
 		<key>Headers/OMIDPartner.h</key>
 		<data>
-		c+csgK5GGScT0pvNiCx0OX1GGH4=
+		r0zd7zkQwZj5ArG0I245dTKNq0w=
 		</data>
 		<key>Headers/OMIDSDK.h</key>
 		<data>
-		5SGp0lAGIavod7eTKyQaJ2Hk22o=
+		tQbv2IUqUf8vc+2OVe2a8DtOs4E=
 		</data>
 		<key>Headers/OMIDScriptInjector.h</key>
 		<data>
-		I65BEH/67RGjBI+biOrS9OlGNIk=
+		YPogZSXSWlPKqN9a77pdz/MQMFw=
 		</data>
 		<key>Headers/OMIDVASTProperties.h</key>
 		<data>
-		bKSTtDGiqWloQuCJuEeoT+6RMIE=
+		jgV8E5HcAg41F33UgIDUUaR8yaI=
 		</data>
 		<key>Headers/OMIDVerificationScriptResource.h</key>
 		<data>
-		VgXGV5IDWpWl0D1j4HSNKhQ4ERw=
+		Dg6NHfqr0K32kcp2ITY+cnsB1xc=
 		</data>
 		<key>Headers/SKAdNetworkInfo.h</key>
 		<data>
-		S2syG3/+kRE2VyEHa7CbHPurLJM=
+		nTsCJ3g2nbbpxuLPRGSRd/hqeHk=
 		</data>
 		<key>Headers/UIView+DTB.h</key>
 		<data>
-		HS39dqGSYd8uSd1bOKzfC+vvdcQ=
+		/Kvc6ihuni/7uqZX9JWnWdwqaow=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DD6t8Ux5hr/W4/sexInZW33lZHI=
+		YrpGU6hjCQ3zRxQo4iR10dj0kK4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -382,7 +394,7 @@
 		</data>
 		<key>dtb-m.js</key>
 		<data>
-		YTw8APlJdL5mzr80zpeDEdzEiYM=
+		qdPIoTyMBSi4O9VBbbv+GNc8vOo=
 		</data>
 		<key>mraid_close.png</key>
 		<data>
@@ -398,11 +410,11 @@
 		</data>
 		<key>omid-session-client-v1.js</key>
 		<data>
-		tMb68pwnuescbtjuHW2D2qMZ8tw=
+		7sp3Ar5eWE8CR1N+eYJLzLQ6YcQ=
 		</data>
 		<key>omsdk-v1.js</key>
 		<data>
-		Smzqju6dfQAXDhx+sptAite6mEE=
+		6+hfCdXnixKm+657WUiXeprAN1c=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -425,14 +437,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MPFi/C6n3XhXj7p9m1+zdldluMWRFK+WZaooTLaXTj8=
+			rZAxJrCFvllW9urhcBN4Zo2RghcBQiSzMeSzu8nlkjA=
 			</data>
 		</dict>
 		<key>Headers/APSAd+AdMobAdditions.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b0sBS+XFwC2iwlzcDTbXMTHvl5/Fl4Cx6eOPSiVJOyY=
+			Z/yyeS7bOxBHpA8ACUPjzQvvKHJWfl6cXgklQjsjO3s=
 			</data>
 		</dict>
 		<key>Headers/APSAd+MAXAdditions.h</key>
@@ -460,7 +472,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sEpqEIFLPcTtjENW7897ge0eXtYU+rebJYibhugPq8c=
+			v67RezXY5nNUFe7SXXSU9ZZHtB5bfla91A+YRkTbTmc=
 			</data>
 		</dict>
 		<key>Headers/APSAdDelegate.h</key>
@@ -488,7 +500,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gw2Nhjx/01xZwxhciCv+1dqOIy0TVqjf/QcVBW4QJts=
+			H7nZBcXslIt3ovu6qyB+jGOuKbKpI/xLW+ED53+OXsw=
 			</data>
 		</dict>
 		<key>Headers/APSAdMediaType.h</key>
@@ -498,11 +510,18 @@
 			2kpCWoOfp9wJBe1nDs3TUr/tx/BNuOyz/VjhcDwIzug=
 			</data>
 		</dict>
+		<key>Headers/APSAdNetworkInfo.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			o2JNScFwp81sodQQNvrhYB2bqPZCnE+Uujl2EJzuA+o=
+			</data>
+		</dict>
 		<key>Headers/APSAdRequest.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s+x6MJewmbBPEry5PDKO6yOjbKvaqp140kHIptoHGxg=
+			5LOQng/LLjdaP7V7NIkOrwbB+z+NTEnMIQpDia0WbfM=
 			</data>
 		</dict>
 		<key>Headers/APSAnalyticsLib.h</key>
@@ -523,7 +542,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VqT8HCXJVx3rh5Jo0iaMTttltTUj4KEmiaaJSYbcs2k=
+			JavkJnVZBznPswkL3kjh+wkDbOqXpbS8xOj3nLi2E+c=
 			</data>
 		</dict>
 		<key>Headers/APSCacheManager.h</key>
@@ -558,7 +577,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/KMXzeQu+mN409GIYtt5Fsb9+tD1xWskro5fgIyLVv4=
+			zqTojhVOxvGqI+NhhfdJetWGEQwKpQR7xgx5R4/7fnA=
 			</data>
 		</dict>
 		<key>Headers/APSLogger.h</key>
@@ -722,11 +741,25 @@
 			zwslldDxV+Zp6iUNcqx9M15I2Ntgc6IbCMK6PolqPHw=
 			</data>
 		</dict>
+		<key>Headers/APSSlotInfoExtra.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			krN27XAb/4+Z9O+tsEWSvEgG/Rwm1YUCgvUseVnueB0=
+			</data>
+		</dict>
 		<key>Headers/APSStoreKit.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XVDHL3biiQytRtBbnN6TdzRahjiNOSaJ59YmkuQO95o=
+			KyzEVrzOdCQ3AX8kPVaSTN/KnOVdty2nJYhNlG4R3+0=
+			</data>
+		</dict>
+		<key>Headers/APSStoreKitOverlay.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DGT3fuYrdwj3iq9itPTdJIv3yzYjpNh6wdmH7ml2eOo=
 			</data>
 		</dict>
 		<key>Headers/APSURLSessionTask.h</key>
@@ -768,7 +801,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K0sM78st3Wsy7jkdvIQ1Gr1BbnlLlBZm3mmQQcBBABg=
+			awfCIvXR+RpUgr1HiZp9MKakDHz5v0gtPg61wfsn93A=
 			</data>
 		</dict>
 		<key>Headers/DTBAdInterstitialDispatcher.h</key>
@@ -789,14 +822,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8SNAKcbpkPXqavoZJ56PJkvaQ3EGRYb4jDrMh+U+oTE=
+			j0eG667fxEwneRcOsMi9JRuXXkzmnLPYDSUi8qoNhmI=
 			</data>
 		</dict>
 		<key>Headers/DTBAdNetworkInfo.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FAweWufqzHjjN4ulu0lm70xWrJ6v1Kt6lRfyWYYduWI=
+			zX79voEsvT+eGaPOFKXkk8brMvmTeJIJBGJyihAwkvw=
 			</data>
 		</dict>
 		<key>Headers/DTBAdResponse+Mediation.h</key>
@@ -817,7 +850,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H7vtSs3sjvWAlafDW9DPM1Rp+EQXxbdN2eoHiwAjBN8=
+			FGTbIISiTx6V78WgGGVuSlEhcJDaNWufDHzcDPHEHS8=
 			</data>
 		</dict>
 		<key>Headers/DTBAdView.h</key>
@@ -838,7 +871,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			47GP8CWv0foZy5Qz16/dmdDEX6lhz6W54DJI9q+yq1I=
+			gLgQIuHLeLJW8yKlzUNtfeOxjYREJQdYXBtMGEg4xBI=
 			</data>
 		</dict>
 		<key>Headers/DTBErrorCodes.h</key>
@@ -880,7 +913,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XD5bC2Vw/68EiTxYBJegZEBLKRA8IhR0/sEr8VZHirU=
+			y3bZ11lrNc6/WFFokF/XMtTihycafGuoes6jXQ4IssU=
 			</data>
 		</dict>
 		<key>Headers/DTBMraidConstants.h</key>
@@ -929,28 +962,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fH1UUDFBSNlrqh3uBGb3jB5BAHSgcSmOSyDhUL6O55c=
+			zp0XKAeBOLL7H9dvJ6/DNRhjZeWEHga3vmXVu7OTBKA=
 			</data>
 		</dict>
 		<key>Headers/OMIDAdSession.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DU7bDQIyPnWegYsRcfVOT4jRXuC19X6lTGCg2TKqUIY=
+			f13GfQ31wAycIuP8Lp4T/8f0//OeWHjOhRO+zOkJrFQ=
 			</data>
 		</dict>
 		<key>Headers/OMIDAdSessionConfiguration.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			F8SQlPI0MGTCUbinZXPVSQPzv86tx/tGpJFjECVHQ3Y=
+			iBoiAiLO0xk9BLWj8+2UabJ2f4Dei9ez+QDf8i4gKeg=
 			</data>
 		</dict>
 		<key>Headers/OMIDAdSessionContext.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tzg9xsKo7keMFR4BmfcZJZ02HMi/9b1g0sDFQ965Wm4=
+			f3Ga+V5M2lyeR3vPOJlq+zkayxJ6lwmaEN8ebCN1t5M=
 			</data>
 		</dict>
 		<key>Headers/OMIDFriendlyObstructionType.h</key>
@@ -971,63 +1004,63 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NDrMJlvipzxli9lUJ4PdyjYopQuRakQEhW6kVh6yrjU=
+			WQ+qQcEsMg7xs8jTe+10yeS6rDmhG8paZvFUJdjpWVM=
 			</data>
 		</dict>
 		<key>Headers/OMIDMediaEvents.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cbh7JIRf2l2iqlniqd9vKpp8m9XN39iYWMvAKpouE3E=
+			KsrNwG06X7Qh3JW16TIA3N4pc1o8UpMpXbPdvNVAquM=
 			</data>
 		</dict>
 		<key>Headers/OMIDPartner.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iKji39zqe/aSVX4pHLT+KAqFO32xAmBPn65KUA6Hf+0=
+			5q9ouGhnXRM/cqGJJpParKW0P3qDTgEVf3YMsrFzprY=
 			</data>
 		</dict>
 		<key>Headers/OMIDSDK.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2SVL9rbe1pkwoQO+YpZWs+PZDKnMPqa+d/qcp059AZs=
+			lqy78QkTat0zmBEidiKuZmorau3dCj6RZFWOhIaJwCQ=
 			</data>
 		</dict>
 		<key>Headers/OMIDScriptInjector.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q+bE0txeCtMiz+7FRwSbX2+91lLc6G+MU1h3zB5h+og=
+			HS7KxhzWScsak8h8yxSwkWpjOrr+wngBJnhHDeXAh0Q=
 			</data>
 		</dict>
 		<key>Headers/OMIDVASTProperties.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1Mz69LV4INNeXmSyb/UEnlVAM47oPG2yDjriSMzpkgE=
+			H51MVr9Sem38nbgAfdDE9IvVxgSba3+r3bwAE3ZCvR4=
 			</data>
 		</dict>
 		<key>Headers/OMIDVerificationScriptResource.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q5pRAgw8mKal310HEkVvt7oAxGxrgj2HZi7KB+HiRBs=
+			jg0EOqTz1z8jVTc6QQEfpB7TkIZ/MZCWtavyEJ1n2jk=
 			</data>
 		</dict>
 		<key>Headers/SKAdNetworkInfo.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5N9AtXy56qK7eFJuj1ecTnn4l/EBvBrtTHLNbRcl5FY=
+			a5QsDLVmfXe0xa8f8N4Hx4vTCd3ee+ZA+1e+EiMWS1Y=
 			</data>
 		</dict>
 		<key>Headers/UIView+DTB.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HA8HhpOmBY/4L3Snr1Qs6e1uz8CH1sN/JsB3X4b2V8U=
+			hWcGW8NUZHqOYzYplQYDWNqYEez7Uib1VfYa5D5oo+0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1062,7 +1095,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tnkL6ixiYF7pFKumED2xVCaG9KC4bFtjSo4pULs+IAg=
+			fepBq4qIdGpY06a4K0JzSq8MVTAhOWOrOOIawe/vxeE=
 			</data>
 		</dict>
 		<key>mraid_close.png</key>
@@ -1090,14 +1123,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IHjxbVC8ghOpezS2t6LP2tTcUgIPd5sx1oykLP1fKS4=
+			Te3Jr5e6bZwJTWB4sAfgAvADNUKj/J9l6nJyJYjRWdw=
 			</data>
 		</dict>
 		<key>omsdk-v1.js</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hSkkvTVynHf+4YmRvFaiGf7xI2bZSz39K8GoUF90klw=
+			wdHo+ZxIr5eFSs8kgj8Q2jorPZzSti3/PJO59hk3RRw=
 			</data>
 		</dict>
 	</dict>

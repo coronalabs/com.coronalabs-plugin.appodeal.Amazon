@@ -6,6 +6,7 @@
 //
 
 #import <DTBiOSSDK/APSAd.h>
+#import "APSSlotInfoExtra.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -49,6 +50,10 @@ NS_ASSUME_NONNULL_BEGIN
  * @return YES if the APSAd object contains a valid price point specified in the @{ref serverParameter}, NO otherwise.
  */
 - (BOOL)isValidPricePoint:(NSString *)serverParameter;
+
++ (NSArray<NSString *> * _Nullable)keywordsWithSlotUUID:(NSString *)slotUUID slotInfoExtra:(APSSlotInfoExtra * _Nullable)slotInfo;
+
++ (NSArray<NSString *> * _Nullable)keywordsWithSlotUUID:(NSString *)slotUUID adFormat:(APSAdFormat)adFormat slotInfoExtra:(APSSlotInfoExtra * _Nullable)slotInfo;
 
 @end
 

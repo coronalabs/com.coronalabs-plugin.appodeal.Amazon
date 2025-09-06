@@ -58,7 +58,7 @@ typedef NS_ENUM(NSUInteger, OMIDInteractionType) {
  * Using this event API assumes the media player is fully responsible for communicating all media events at the appropriate times.
  * Only one media events implementation can be associated with the ad session and any attempt to create multiple instances will result in an error.
  */
-@interface OMIDAmazonMediaEvents : NSObject
+@interface OMIDAmazon1MediaEvents : NSObject
 
 /**
  *  Initializes media events instance for the associated ad session.
@@ -68,7 +68,7 @@ typedef NS_ENUM(NSUInteger, OMIDInteractionType) {
  * @return A new media events instance. Returns nil if the supplied ad session is nil or if a media events instance has already been registered with the ad session or if a media events instance has been created after the ad session has started.
  * @see OMIDAdSession
  */
-- (nullable instancetype)initWithAdSession:(nonnull OMIDAmazonAdSession *)session error:(NSError *_Nullable *_Nullable)error;
+- (nullable instancetype)initWithAdSession:(nonnull OMIDAmazon1AdSession *)session error:(NSError *_Nullable *_Nullable)error;
 
 /**
  *  Notifies all media listeners that media content has started playing.

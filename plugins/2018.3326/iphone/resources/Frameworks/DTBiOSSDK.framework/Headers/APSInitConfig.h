@@ -42,6 +42,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, assign) BOOL skAdNetworkTestMode;
 @property (nonatomic, assign, nullable) NSString *skAdNetworkTestModeVersion;
+@property (strong, nonatomic) NSDictionary *aaxResponseTestMode;
 
 @property (nonatomic, assign) BOOL gdprRegionTestMode;
 

@@ -10,7 +10,7 @@
 /**
  *  Details about the verification provider which will be supplied to the ad session.
  */
-@interface OMIDAmazonVerificationScriptResource : NSObject
+@interface OMIDAmazon1VerificationScriptResource : NSObject
 
 @property(nonatomic, readonly, nonnull) NSURL *URL;
 @property(nonatomic, readonly, nullable) NSString *vendorKey;

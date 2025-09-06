@@ -9,12 +9,14 @@
 #import <Foundation/Foundation.h>
 
 typedef enum {
+    DTBADNETWORK_UNKNOWN,
     DTBADNETWORK_GOOGLE_AD_MANAGER,
     DTBADNETWORK_ADMOB,
     DTBADNETWORK_AD_GENERATION,
-    DTBADNETWORK_IRON_SOURCE,
+    DTBADNETWORK_UNITY_LEVELPLAY,
     DTBADNETWORK_MAX,
     DTBADNETWORK_NIMBUS,
+    DTBADNETWORK_CUSTOM_MEDIATION,
     DTBADNETWORK_OTHER
 } DTBAdNetwork;
 
@@ -29,11 +31,14 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property(nonatomic, copy) NSString *adNetworkName;
 
+@property(nonatomic) DTBAdNetwork adNetworkNameEnumValue;
 /**
  * An ad network property dictionary.
  */
 @property(nonatomic, strong) NSMutableDictionary *adNetworkProperties;
 
+- (instancetype)init NS_UNAVAILABLE;
++ (instancetype)new NS_UNAVAILABLE;
 /**
  * @param adNetworkName An ad network name enum.
  */
@@ -57,6 +62,8 @@ NS_ASSUME_NONNULL_BEGIN
  * @return A string value of the adNetworkProperties key.
  */
 - (NSString * _Nullable)getAdNetworkProperties:(NSString *)adNetworkProperties;
+
+-(void)logAdNetworkTypeMismatchWithExpectedAdNetworkName:(NSString*)expectedNetworkName receivedNetworkName:(NSString*)setNetworkName;
 
 @end
 

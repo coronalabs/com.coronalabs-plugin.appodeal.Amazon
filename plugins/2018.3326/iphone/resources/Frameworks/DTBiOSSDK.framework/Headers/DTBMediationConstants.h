@@ -19,6 +19,7 @@
 #define CLICKTRACKERS_ARRAY    @"clicktrackers"
 #define SKADNETWORK_INFO       @"skadn_info"
 #define IS_VIDEO               @"isVideo"
+#define AD_RESPONSE            @"dtbAdResponse"
 
 /// Sample error codes.
 typedef NS_ENUM(NSInteger, DTBAdErrorCode) {

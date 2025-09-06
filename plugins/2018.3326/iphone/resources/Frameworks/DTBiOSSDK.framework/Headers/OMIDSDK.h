@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN;
  * Make sure you are on the main thread when you initialize the SDK, create its
  * objects, and invoke its methods.
  */
-@interface OMIDAmazonSDK : NSObject
+@interface OMIDAmazon1SDK : NSObject
 
 /**
  *  The current semantic version of the integrated OMID library.
@@ -27,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN;
 /**
  *  Shared OMIDSDK instance.
  */
-@property(class, readonly) OMIDAmazonSDK *sharedInstance
+@property(class, readonly) OMIDAmazon1SDK *sharedInstance
 NS_SWIFT_NAME(shared);
 
 /**

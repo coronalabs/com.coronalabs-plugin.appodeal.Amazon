@@ -8,6 +8,7 @@
 #import "APSDeprecatedMessage.h"
 #import "DTBAdSize.h"
 #import "DTBAdCallback.h"
+#import "DTBAdNetworkInfo.h"
 
 #define A9_BID_ID_KEY        @"amzn_b"
 #define A9_HOST_KEY          @"amzn_h"
@@ -23,6 +24,18 @@
 
 @property (nonatomic, copy) NSString *_Nullable slotGroup APS_DEPRECATED_MESSAGE();
 @property (nonatomic, copy) NSString * _Nonnull correlationId;
+
+NS_ASSUME_NONNULL_BEGIN
+- (instancetype)init NS_UNAVAILABLE;
++ (instancetype)new NS_UNAVAILABLE;
+
+- (instancetype)initWithAdNetworkInfo:(DTBAdNetworkInfo * _Nonnull)dtbAdNetworkInfo NS_DESIGNATED_INITIALIZER;
+
+-(void)updateAdNetworkInfo:(DTBAdNetworkInfo * _Nonnull)dtbAdNetworkInfo;
+
+-(DTBAdNetworkInfo *)getAdNetworkInfo;
+
+NS_ASSUME_NONNULL_END
 
 - (void)setSizes:(DTBAdSize * _Nonnull)size, ... NS_REQUIRES_NIL_TERMINATION APS_DEPRECATED_MESSAGE();
 

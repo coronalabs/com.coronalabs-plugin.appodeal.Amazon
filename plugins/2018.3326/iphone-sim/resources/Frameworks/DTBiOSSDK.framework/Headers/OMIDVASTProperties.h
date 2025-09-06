@@ -32,7 +32,7 @@ typedef NS_ENUM(NSUInteger, OMIDPosition) {
 /**
  *  This object is used to capture key VAST properties so this can be shared with all registered verification providers.
  */
-@interface OMIDAmazonVASTProperties : NSObject
+@interface OMIDAmazon1VASTProperties : NSObject
 
 @property(nonatomic, readonly, getter = isSkippable) BOOL skippable;
 @property(nonatomic, readonly) CGFloat skipOffset;

@@ -6,6 +6,7 @@
 
 #import <Foundation/Foundation.h>
 #import "APSDeprecatedMessage.h"
+#import "APSSlotInfoExtra.h"
 
 #define DTB_VIDEO_WIDTH  ((int)640)
 #define DTB_VIDEO_HEIGHT ((int)390)
@@ -22,7 +23,7 @@ typedef enum {
 @property(readonly, nonatomic) NSInteger height APS_DEPRECATED_MESSAGE();
 @property(readonly, nonatomic) NSString *slotUUID APS_DEPRECATED_MESSAGE("Use -[APSAd slotUUID] intead.");
 @property(nonatomic, copy) NSDictionary *pubSettings APS_DEPRECATED_MESSAGE();
-
+@property(nonatomic) APSSlotInfoExtra *slotInfoExtra;
 
 - (instancetype) init NS_UNAVAILABLE APS_DEPRECATED_MESSAGE();
 
@@ -38,4 +39,5 @@ typedef enum {
 
 - (BOOL) isInterstitialAd APS_DEPRECATED_MESSAGE();
 
+-(void)setSlotInfoExtra:(nonnull APSSlotInfoExtra *) slotIntoExtra;
 @end

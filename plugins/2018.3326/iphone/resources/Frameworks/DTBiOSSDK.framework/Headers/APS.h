@@ -8,6 +8,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "APSAdNetworkInfo.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -16,18 +17,6 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * Supported ad network type.
  */
-typedef NS_ENUM(NSInteger, APSAdNetwork) {
-    APSAdNetworkNone,
-    APSAdNetworkGoogleAdManager,
-    APSAdNetworkAdmob,
-    APSAdNetworkAdGeneration,
-    APSAdNetworkUnityLevelPlay,
-    APSAdNetworkMax,
-    APSAdNetworkNimbus,
-    APSAdNetworkOther,
-    APSAdNetworkCustomMediation
-};
-
 /**
  * Mobile Rich Media Ad Interface (MRAID) policy type.
  */
@@ -75,6 +64,7 @@ FOUNDATION_EXPORT APSMraidVersion * const APSMraidVersion3_0;
  */
 @interface APS : NSObject
 
+
 /**
  * @abstract Initialize the SDK without a configuration.
  * @description This should be the first call before using the SDK. We recommend the call in a main thread from
@@ -82,14 +72,12 @@ FOUNDATION_EXPORT APSMraidVersion * const APSMraidVersion3_0;
  *
  * @param appKey The publisher application key. If the appKey is nil or empty, it will throws a runtime NSException in
  * development and will not initialize the SDK but does not throw an exception in production.
- * @param adNetwork The main ad network used by the app.
  * parameters in the config object may be overriden by the DTB portal.
  * @param completion Optional completion block called when the initialize is complete.  This block will be called
  * from a background thread.
  */
 + (void)initializeWithAppKey:(NSString *)appKey
-                   adNetwork:(APSAdNetwork)adNetwork
-                  completion:(nullable void (^)(NSError *error))completion;
+                  completion:(nullable void (^)(NSError * _Nullable error))completion;
 
 /**
  * @abstract Initialize the SDK with a configuration.
@@ -98,16 +86,14 @@ FOUNDATION_EXPORT APSMraidVersion * const APSMraidVersion3_0;
  *
  * @param appKey The publisher application key. If the appKey is nil or empty, it will throws a runtime NSException in
  * development and will not initialize the SDK but does not throw an exception in production.
- * @param adNetwork The main ad network used by the app.
  * @param config The initialize config object.  If nil, the config parameters will use default values. Note that
  * parameters in the config object may be overriden by the DTB portal.
  * @param completion Optional completion block called when the initialize is complete.  This block will be called
  * from a background thread.
  */
 + (void)initializeWithAppKey:(NSString *)appKey
-                   adNetwork:(APSAdNetwork)adNetwork
                       config:(APSInitConfig * _Nullable)config
-                  completion:(nullable void (^)(NSError *error))completion;
+                  completion:(nullable void (^)(NSError * _Nullable error))completion;
 
 /**
  * @abstract Set a custom attribute key value strings.
@@ -118,13 +104,6 @@ FOUNDATION_EXPORT APSMraidVersion * const APSMraidVersion3_0;
  * custom attribute but does not throw an exception in production.
  */
 + (void)setCustomAttribute:(NSString *)value forKey:(NSString *)key;
-
-/**
- * @abstract Ad network.
- *
- * @return The current ad network.
- */
-+ (APSAdNetwork)adNetwork;
 
 /**
  * @abstract Set the privacy string.
